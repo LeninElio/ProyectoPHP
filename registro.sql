@@ -1,6 +1,6 @@
 create database myapp;
 use myapp;
-
+/*esta es una prueba para Git*/
 create table user(
 	id int not null auto_increment primary key,
 	fullname varchar(500) not null,
