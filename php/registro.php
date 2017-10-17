@@ -18,7 +18,7 @@ if(!empty($_POST)){
 			$sql = "insert into user(username,fullname,email,password,created_at) value (\"$_POST[username]\",\"$_POST[fullname]\",\"$_POST[email]\",\"$_POST[password]\",NOW())";
 			$query = $con->query($sql);
 			if($query!=null){
-				print "<script>alert(\"Registro exitoso. Proceda a logearse\");window.location='../login.php';</script>";
+				print "<script>alert(\"Registro exitoso. Proceda a loguearse\");window.location='../login.php';</script>";
 			}
 		}
 	}

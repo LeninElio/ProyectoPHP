@@ -14,8 +14,21 @@
   <!-- Collect the nav links, forms, and other content for toggling -->
   <div class="collapse navbar-collapse navbar-ex1-collapse">
     <ul class="nav navbar-nav">
+      <?php 
+      if(!isset($_SESSION["user_id"])): 
+      ?>
       <li><a href="./registro.php"> REGISTRO</a> </li>
       <li><a href="./login.php">LOGIN</a> </li>
+      <?php 
+      else: 
+      ?>
+      <li><a href="home.php">HOME</a> </li>
+      <li><a href="actualizar.php">ACTUALIZAR DATOS</a></li>
+      <li><a href="invitados.php">LISTA DE INVITADOS</a></li>
+      <li><a href="php/logout.php">SALIR</a> </li>
+      <?php 
+      endif; 
+      ?>
     </ul>  
   </div><!-- /.navbar-collapse -->
 </div>
