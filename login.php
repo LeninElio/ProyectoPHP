@@ -12,7 +12,7 @@ session_start();
   <?php include "php/navbar.php"; ?>
   <div class="container">
     <div class="row">
-      <div class="col-md-6">
+      <div class="col-auto">
         <h2>Login</h2>
 
         <form role="form" name="login" action="php/login.php" method="post">

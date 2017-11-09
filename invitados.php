@@ -17,13 +17,13 @@ print "<script>alert(\"Acceso denegado\");window.location='login.php';</script>"
         <div class="panel-heading">Lista de Invitados</div>
         <div class="panel-body">Buscar <input type="text" name="Buscar">
             <br>
-            <table border="1">
-                <th>
-                    <td>N°</td>
-                    <td>Apellido Paterno</td>
-                    <td>Apellido Materno</td>
-                    <td>Nombre</td>
-                </th>
+            <table class="table" border="1">
+                <thead>
+                    <th>N°</th>
+                    <th>Apellido Paterno</th>
+                    <th>Apellido Materno</th>
+                    <th>Nombre</th>
+                </thead>
                 <tr>
                     <td></td>
                     <td></td>
