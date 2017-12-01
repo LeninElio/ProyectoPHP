@@ -17,8 +17,5 @@ with(document.login) {
         if (ok) {
             submit();
         }
-
     }
-
-
 }
